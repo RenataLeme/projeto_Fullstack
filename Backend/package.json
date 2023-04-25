@@ -1,0 +1,22 @@
+{
+  "name": "projeto-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon --watch 'src/' --exec ts-node src/app.ts -e ts"
+  },
+  "author": "Renata Vercesi Leme",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "nodemon": "^2.0.22",
+    "ts-node-dev": "^2.0.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
